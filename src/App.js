@@ -9,16 +9,16 @@ function App(props) {
 
 
   return(
-    <div >
-
-      <h1 className="title">
+    <div className="sign">
+    
+<h1 className="sign">
+<Button className="button">Sign Up</Button>
+      <h2 className="title">
         MyFitnessBro
-        <Button className="button ">
-          Sign Up
-          </Button>
-          </h1>
       
-      <h2 className="Button">
+          </h2>
+      </h1>
+      <h2 className="header">
         
         <Creds name="Email"field="Enter Email"type="text"></Creds>
         <Creds name="Password" field="Enter Password" type="password"></Creds>

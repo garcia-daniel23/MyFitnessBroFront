@@ -13,12 +13,7 @@ function Creds(props){
 
     return(
         <div>
-            <label>
-                <b>
-                {props.name}
-                
-                </b>
-            </label>
+         
             <input placeHolder={props.field} type={props.type}>
             
             </input>
