@@ -18,6 +18,98 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.title{
+  text-align: center;
+  padding-left: 11vh;
+  
+}
+.log{
+  text-align: center;
+  font-size: 2vh;
+  line-height: 2em;
+}
+.creds{
+
+}
+label {
+  display: inline-block;
+  width: 6em;
+  margin-right: 0;
+  padding-top:2em;
+  text-align: center;
+  
+}
+.Button{
+  text-align: center;
+}
+.test{
+  padding-left: 10em;
+}
+/*
+input[type=text],input[type=password]{
+  width: 15%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  top: -3em;
+  position: relative;
+}
+*/
+input[type=text],input[type=password]{
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px solic #ccc;
+  margin: 8px 0;
+}
+
+.button {
+  background-color: white;
+  border: 2px solid #555555;
+  color: black;
+  padding: 16px 32px;
+  border-radius: 12px;
+  text-align: end;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  float: right;
+  padding: 1vh
+}
+.button1 {
+  background-color: white;
+  border: 2px solid #555555;
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 18vh;
+  padding: 1vh;
+}
+.paragraph{
+  
+  
+}
+
+.button:hover {
+  background-color: #555555;
+  color: white;
+}
+.button1:hover{
+  background-color: #555555;
+  color: white;
+}
+
 
 .App-link {
   color: #61dafb;
